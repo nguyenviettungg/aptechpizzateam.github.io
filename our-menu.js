@@ -32,11 +32,11 @@ $(function() {
  		$('.khoianh_menu_bigsize section').each(function() {
  			if($(this).hasClass(danhmuc))
  			{
- 				$(this).fadeIn(200);
+ 				$(this).show(500);
  			}
  			else 
  			{
- 				$(this).fadeOut(200);
+ 				$(this).hide(500);
  			}
  		});
  		return false;
